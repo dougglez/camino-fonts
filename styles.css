@@ -1,0 +1,54 @@
+span {
+  text-transform: uppercase;
+}
+.pacifico h2 {
+  font-family: 'Pacifico';
+}
+
+.vibur {
+  font-family: 'Vibur';
+}
+
+.josefin {
+  font-family: 'Josefin Sans';
+  font-size: 1.3rem;
+}
+
+.work {
+  font-family: 'Work Sans';
+  font-size: 1.3rem;
+}
+
+.muli {
+  font-family: 'Muli';
+  font-size: 1.3rem;
+}
+
+.card {
+  width: 38%;
+  min-height: 400px;
+  margin: 15px;
+  border: 5px solid #334433;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+@media (min-width: 950px) {
+  .card {
+    width: 27%;
+  }
+}
+
+@media (min-width: 1390px) {
+  .card {
+    width: 29%;
+  }
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100vw;
+  flex-wrap: wrap;
+}
