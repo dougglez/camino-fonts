@@ -1,12 +1,16 @@
 span {
   text-transform: uppercase;
 }
-.pacifico h2 {
+.pacifico {
   font-family: 'Pacifico';
 }
 
 .vibur {
   font-family: 'Vibur';
+}
+
+.josefinslab h2 {
+  font-family: 'Josefin Slab';
 }
 
 .josefin {
